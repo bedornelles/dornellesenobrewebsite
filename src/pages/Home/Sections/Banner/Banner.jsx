@@ -2,6 +2,7 @@ import imagemBanner from "../../../../assets/img/imagemBanner.png"
 import Titulo from "../Services/TituloLeft"
 import Text from "../Services/Text"
 import ButtonLeft from "../Services/ButtonLeft"
+import Titulo2 from "../Services/Titulo2"
 function Banner (){
     return(
 <section  
@@ -9,7 +10,7 @@ function Banner (){
     style={{ backgroundImage: `url(${imagemBanner})`, backgroundSize: "cover", backgroundPosition: "center" }}>
     <div className="w-full max-w-2xl">
         <div className="text-black">
-            <Titulo tituloLeft="Especialistas em Direito Previdenciário" />
+            <Titulo2 titulo2="Especialistas em Direito Previdenciário" />
         </div>
         <div className="text-black my-4">
             <Text text="O escritório atua  com foco em Direito Previdenciário, sendo especializado em benefícios do INSS e aposentadorias. Nosso compromisso é oferecer um serviço ético, eficiente e centrado na garantia dos direitos previdenciários." />

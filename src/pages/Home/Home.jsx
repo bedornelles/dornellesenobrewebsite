@@ -31,7 +31,7 @@ function Home() {
                 <Button tituloBtn="Fale Com Um Especialista" />
             </div>
             <About/>
-            <div className="justify-items-center mt-4 text-center">
+            <div className="justify-items-center sm:text-center mt-4 text-center">
                 <Titulo tituloCenter="CONHEÇA NOSSA EQUIPE" />
                 <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-24 sm:gap-12 md:gap-16 my-10">
                     <CardEquipe nomeColaboradora="Colaboradora1"
