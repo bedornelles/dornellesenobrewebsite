@@ -1,7 +1,7 @@
 function TituloLeft({tituloLeft}){
     return(
-        <div className="text-left">
-            <h1 className="text-4xl font-oswald font-light text-left">{tituloLeft}</h1>
+        <div className="lg:text-left text-center">
+            <h1 className="text-4xl font-oswald font-light lg:text-left text-center">{tituloLeft}</h1>
         </div>
     )
 }
