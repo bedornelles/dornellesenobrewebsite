@@ -1,4 +1,4 @@
-import TituloTwist from "../Services/TituloTwist"
+import TituloTwist from "../Services/TituloLeft"
 import Text from "../Services/Text"
 import imagemEstatueta from "../../../../assets/img/Estatueta.jpg"
 
