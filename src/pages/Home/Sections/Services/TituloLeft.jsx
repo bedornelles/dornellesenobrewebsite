@@ -1,4 +1,4 @@
-function TituloTwist({tituloLeft}){
+function TituloLeft({tituloLeft}){
     return(
         <div className="text-left">
             <h1 className="text-4xl font-oswald font-light text-left">{tituloLeft}</h1>
@@ -6,4 +6,4 @@ function TituloTwist({tituloLeft}){
     )
 }
 
-export default TituloTwist
+export default TituloLeft

@@ -1,4 +1,4 @@
-import TituloTwist from "../Services/TituloLeft"
+import TituloLeft from "../Services/TituloLeft"
 import Text from "../Services/Text"
 import imagemEstatueta from "../../../../assets/img/Estatueta.jpg"
 
@@ -7,7 +7,7 @@ function About() {
         <div className="flex flex-col lg:flex-row items-center justify-between w-full max-w-6xl mx-auto">
             <div className="w-full lg:w-1/2 text-center lg:text-left p-6"> 
                 <div className="mb-5">
-                    <TituloTwist tituloTwist="SOBRE NÓS"/>
+                    <TituloLeft tituloLeft="SOBRE NÓS"/>
                 </div>
                 <Text text="No escritório Dornelles & Nobre, acreditamos que dignidade e justiça devem ser acessíveis a todos. Atuamos com foco em soluções rápidas, priorizando o atendimento administrativo e extrajudicial para garantir benefícios previdenciários justos e adequados."/>
                 <br/><Text className="<br>" text="
