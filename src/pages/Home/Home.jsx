@@ -14,7 +14,7 @@ function Home() {
         <>
             <Hero />
             <Banner />
-            <div className="justify-items-center mt-4">
+            <div className="flex justify-center mt-4">
                 <Titulo tituloCenter="CONHEÇA NOSSOS SERVIÇOS" />
             </div>
             <div className="justify-items-center">
@@ -27,7 +27,7 @@ function Home() {
                     <Card tituloServico="TITULO CARD 6" descricaoServico="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque fringilla laoreet.." />
                 </div>
             </div>
-            <div className=" justify-items-center ">
+            <div className="flex justify-center">
                 <Button tituloBtn="Fale Com Um Especialista" />
             </div>
             <About/>
