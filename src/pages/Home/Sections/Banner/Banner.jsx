@@ -6,9 +6,9 @@ import Titulo2 from "../Services/Titulo2"
 function Banner (){
     return(
 <section  
-    className="h-screen lg:min-h-[900px] w-full flex flex-col items-center justify-center text-white p-6 sm:p-8 lg:p-12 lg:items-start lg:justify-center lg:text-left"
+    className="h-screen lg:min-h-[900px] w-full flex flex-col justify-start text-white p-6 sm:p-8 lg:p-12 lg:items-start lg:text-left"
     style={{ backgroundImage: `url(${imagemBanner})`, backgroundSize: "cover", backgroundPosition: "center" }}>
-    <div className="w-full max-w-2xl">
+    <div className="w-full max-w-2xl mt-36 lg:mt-56">
         <div className="text-black">
             <Titulo2 titulo2="Especialistas em Direito Previdenciário" />
         </div>
