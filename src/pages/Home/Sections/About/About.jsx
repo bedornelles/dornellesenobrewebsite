@@ -1,6 +1,6 @@
 import TituloLeft from "../Services/TituloLeft"
 import Text from "../Services/Text"
-import imagemEstatueta from "../../../../assets/img/Estatueta.jpg"
+import imagemEscritorio from "../../../../assets/img/EscritorioHorizontal.jpg"
 
 function About() {
     return (
@@ -15,7 +15,7 @@ function About() {
                 <br/><Text text="Nosso atendimento é sempre humanizado e personalizado. Seja em nosso escritório ou onde o cliente se sentir mais confortável, valorizamos o cuidado com cada detalhe, pois entendemos que cada história é única — e merece atenção especial."/>
             </div>
             <div className="mt-10 lg:mt-0">
-                <img className="w-full lg:w-72 rounded-lg" src={imagemEstatueta} alt="" />
+                <img className="w-full lg:w-96 rounded-lg border border-gold1" src={imagemEscritorio} alt="" />
             </div>
         </div>
     )

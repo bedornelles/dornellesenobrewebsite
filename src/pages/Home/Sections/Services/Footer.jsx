@@ -9,18 +9,17 @@ function Footer() {
                 <div className="space-y-4">
                     <img src={Logo} alt="Logo" className="h-20" />
                     <p className="text-sm leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque fringilla laoreet. 
-                        Etiam pulvinar, velit ac venenatis iaculis, turpis nunc sodales eros, elementum pretium lorem metus id turpis.
+                        Acreditamos em uma advocacia humana e comprometida com a transformação social, que utiliza o conhecimento previdenciário como instrumento de dignidade e mudança de vidas. 
                     </p>
                 </div>
 
                 <div>
                     <h3 className="text-gold1 font-roboto text-base mb-2">HORÁRIO</h3>
-                    <p className="font-oswald font-light">09:00 - 11:30</p>
-                    <p className="font-oswald font-light">13:30 - 17:45</p>
+                    <p className="font-oswald font-light">Online das 09:00 às 17:30</p>
+                    <p className="font-oswald font-light">Presencial das 13:30 às 17:30 </p>
                     <h3 className="text-gold1 font-roboto text-base mb-2 mt-3">CONTATO</h3>
-                    <p className="font-oswald font-light">(51) 9 98765-4321</p>
-                    <p className="font-oswald font-light">(51) 9 98765-4321</p>
+                    <p className="font-oswald font-light">(51) 9 8284-8457</p>
+                    <p className="font-oswald font-light text-lg">dornellesenobreadv@gmail.com</p>
                 </div>
 
                 <div>

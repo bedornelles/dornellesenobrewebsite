@@ -5,7 +5,8 @@ import Button from "./Sections/Services/Button"
 import Titulo from "./Sections/Services/Titulo"
 import About from "./Sections/About/About"
 import CardEquipe from "./Sections/Services/CardEquipe"
-import rectangle from "../../assets/img/Rectangle.png"
+import fotoFran from "../../assets/img/FranPerfil.jpeg"
+import fotoAida from "../../assets/img/AidaPerfil.jpg"
 import Footer from "./Sections/Services/Footer"
 
 function Home() {
@@ -18,13 +19,67 @@ function Home() {
                 <Titulo tituloCenter="CONHEÇA NOSSOS SERVIÇOS" />
             </div>
             <div className="justify-items-center">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center justify-center p-9 gap-9">
-                    <Card tituloServico="TITULO CARD 1" descricaoServico="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque fringilla laoreet.." />
-                    <Card tituloServico="TITULO CARD 2" descricaoServico="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque fringilla laoreet.." />
-                    <Card tituloServico="TITULO CARD 3" descricaoServico="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque fringilla laoreet.." />
-                    <Card tituloServico="TITULO CARD 4" descricaoServico="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque fringilla laoreet.." />
-                    <Card tituloServico="TITULO CARD 5" descricaoServico="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque fringilla laoreet.." />
-                    <Card tituloServico="TITULO CARD 6" descricaoServico="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque fringilla laoreet.." />
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-stretch justify-center p-9 gap-9">
+                    <Card 
+                        tituloServico="APOSENTADORIAS" 
+                        descricaoServico={[
+                            "Por idade urbana e rural",
+                            "Por tempo de contribuição",
+                            "Especial (Exposição a agentes nocivos)",
+                            "Pessoa com deficiência",
+                            "Por invalidez"
+                        ]}
+                    />
+                    <Card 
+                        tituloServico="BENEFÍCIOS" 
+                        descricaoServico={[
+                            "Auxílio por incapacidade temporária",
+                            "Salário-maternidade",
+                            "Salário-família",
+                            "Pensão por morte",
+                            "Benefício de Prestação Continuada – BPC/LOAS (para idosos e pessoas com deficiência de baixa renda)"
+                        ]}
+                        />
+                    <Card  
+                        tituloServico="PLANEJAMENTO PREVIDENCIÁRIO"
+                        descricaoServico={[
+                            "Simulação de tempo de contribuição",
+                            "Projeção da melhor aposentadoria",
+                            "Análise do histórico de contribuições (CNIS)",
+                            "Estratégia para contribuintes facultativos e autônomos",
+                            "Identificação de oportunidades de averbação e revisão"
+                        ]}
+                    />
+                    <Card 
+                        tituloServico="AVERBAÇÃO E ATUALIZAÇÃO"
+                        descricaoServico={[
+                            "Averbação de tempo rural",
+                            "Inclusão de vínculos e contribuições faltantes",
+                            "CTC – Certidão de Tempo de Contribuição",
+                            "Acerto de vínculos e correção de dados no CNIS",
+                            "Inclusão de períodos especiais (insalubridade/periculosidade)",
+                            "Retificação de dados cadastrais do segurado e dependentes"
+                        ]}
+                    />
+                    <Card 
+                        tituloServico="RECURSOS ADMINISTRATIVOS"
+                        descricaoServico={[
+                            "Elaboração de recursos contra indeferimentos de benefícios",
+                            "Requerimentos de revisão administrativa",
+                            "Justificações administrativas",
+                            "Acompanhamento de processos pelo Meu INSS e e-SISRE"
+                        ]}
+                    />
+                    <Card 
+                        tituloServico="SERVIÇOS JUDICIAIS PREVIDENCIÁRIOS" 
+                        descricaoServico={[
+                            "Por idade urbana e rural",
+                            "Por tempo de contribuição (com e sem pontos)",
+                            "Especial (Exposição a agentes nocivos)",
+                            "Pessoa com deficiência",
+                            "Por invalidez"
+                        ]}
+                    />
                 </div>
             </div>
             <div className="flex justify-center">
@@ -36,15 +91,12 @@ function Home() {
             </div>
             <div className="justify-items-center sm:text-center mt-4 text-center">
                 <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-24 sm:gap-12 md:gap-16 my-10">
-                    <CardEquipe nomeColaboradora="Colaboradora1"
-                        descricaoColaboraadora="Turpis nunc sodales eros, elementum pretium lorem metus id turpis. Suspendisse elit enim, efficitur nec ex vitae, aliquam gravida purus."
-                        foto={rectangle} />
-                    <CardEquipe nomeColaboradora="Colaboradora2"
-                        descricaoColaboraadora="Turpis nunc sodales eros, elementum pretium lorem metus id turpis. Suspendisse elit enim, efficitur nec ex vitae, aliquam gravida purus."
-                        foto={rectangle} />
-                    <CardEquipe nomeColaboradora="Colaboradora3"
-                        descricaoColaboraadora="Turpis nunc sodales eros, elementum pretium lorem metus id turpis. Suspendisse elit enim, efficitur nec ex vitae, aliquam gravida purus."
-                        foto={rectangle} />
+                    <CardEquipe nomeColaboradora="Aida Dornelles"
+                        descricaoColaboraadora="Advogada, formada no FMP - Fundação Superior do Ministério Público em 2011 e pós-graduada em Direito Previdenciário."
+                        foto={fotoAida} />
+                    <CardEquipe nomeColaboradora="Francine Nobre"
+                        descricaoColaboraadora="Advogada, formada na ULBRA - Universidade Luterana do Brasil em 2019 e pós-graduada em Direito Previdenciário."
+                        foto={fotoFran} />
                 </div>
             </div>
             <div className="mt-32">
